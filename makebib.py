@@ -61,6 +61,7 @@ with open('_bibliography/papers.bib', 'w') as o:
         incfield('doi', pub, o)
         incfield('data', pub, o)
         incfield('website', pub, o)
+        incfield('talk', pub, o)
 
         filename = key.replace(':', '-')
         if not 'pdf' in pub: # means there's a 'pdf: no' key

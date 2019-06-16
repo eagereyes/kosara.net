@@ -21,6 +21,7 @@ Kosara:BELIV:2018:
     author: Robert Kosara and Steve Haroz
     venue: "Proceedings BEyond time and errors: novel evaLuation methods for Information Visualization (BELIV)"
     doi: 10.1109/BELIV.2018.8634392
+    talk: https://vimeo.com/305865159
     abstract: |
         Replications are rare in visualization research, but if they were more common, it is not unreasonable to believe that they would show a similar rate of unreproducible results as in the psychological and social sciences. While a replication crisis in visualization research would be a helpful wake-up call, examining and correcting the underlying problems in many studies is ultimately more productive. 
         In this paper, we survey the state of replication in visualization research. We examine six threats to the validity of studies in visu- alization and suggest ways to address them. Finally, we describe possible models for publishing replications that satisfy the novelty criterion that can keep replications from being accepted. 
@@ -61,6 +62,7 @@ Hullman:EuroVis:2017:
     volume: 36
     number: 3
     doi: 10.1111/cgf13194
+    talk: https://vimeo.com/232095703
     abstract: "Little is known about how people structure sets of visualizations to support sequential viewing. We contribute findings from several studies examining visualization sequencing and reception. In our first study, people made decisions between various possible structures as they ordered a set of related visualizations (consisting of either bar charts or thematic maps) into what they considered the clearest sequence for showing the data. We find that most people structure visualization sequences hierarchically: they create high level groupings based on shared data properties like time period, measure, level of aggregation, and spatial region, then order the views within these groupings. We also observe a tendency for certain types of similarities between views, like a common spatial region or aggregation level, to be seen as more appropriate categories for organizing views in a sequence than others, like a common time period or measure. In a second study, we find that viewers’ perceptions of the quality and intention of different sequences are largely consistent with the perceptions of the users who created them. The understanding of sequence preferences and perceptions that emerges from our studies has implications for the development of visualization authoring tools and sequence recommendations for guided analysis."
 
 Kosara:BELIV:2016:
@@ -100,6 +102,7 @@ Skau:EuroVis:2016:
     pages: 121–130
     doi: 10.1111/cgf.12888
     data: https://github.com/dwskau/arcs-angles-area
+    talk: https://vimeo.com/176995237
     abstract: "Pie and donut charts have been a hotly debated topic in the visualization community for some time now. Even though pie charts have been around for over 200 years, our understanding of the perceptual factors used to read data in them is still limited. Data is encoded in pie and donut charts in three ways: arc length, center angle, and segment area. For our first study, we designed variations of pie charts to test the importance of individual encodings for reading accuracy. In our second study, we varied the inner radius of a donut chart from a filled pie to a thin outline to test the impact of removing the central angle. Both studies point to angle being the least important visual cue for both charts, and the donut chart being as accurate as the traditional pie chart."
 Burlinson:SIGCSE:2016:
     title: "BRIDGES: A System to Enable Creation of Engaging Data Structures Assignments with Real-World Data and Visualizations"
