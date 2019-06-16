@@ -17,6 +17,12 @@ collection: hidden
 {%% bibliography -f papers -q @*[key=%s] %%}
 """ % (filename, pub['title'], pub['abstract'], key), file=f)
 
+
+def incfield(field, pub, o):
+    if field in pub:
+        print('\t%s = {%s},' % (field, pub[field]), file=o)
+
+
 pubs = safe_load(open('papers.yaml'))
 
 venues = safe_load(open('_data/venues.yml'))
@@ -50,17 +56,11 @@ with open('_bibliography/papers.bib', 'w') as o:
         else:
             print('\tbooktitle = {%(venue)s},' % pub, file=o)
 
-        if 'editor' in pub:
-            print('\teditor = {%(editor)s},' % pub, file=o)
-
-        if 'pages' in pub:
-            print('\tpages = {%(pages)s},' % pub, file=o)
-
-        if 'data' in pub:
-            print('\tdata = {%(data)s},' % pub, file=o)
-
-        if 'website' in pub:
-            print('\twebsite = {%(website)s},' % pub, file=o)
+        incfield('editor', pub, o)
+        incfield('pages', pub, o)
+        incfield('doi', pub, o)
+        incfield('data', pub, o)
+        incfield('website', pub, o)
 
         filename = key.replace(':', '-')
         if not 'pdf' in pub: # means there's a 'pdf: no' key
