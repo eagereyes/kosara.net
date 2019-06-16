@@ -1,8 +1,6 @@
 
 # README
 
-## To Create/Update Site
-
 Basic update workflow:
 
 ```
@@ -10,6 +8,8 @@ git pull origin
 pipenv run python3 makebib.py
 bundle exec jekyll build
 ```
+
+## To Create/Update Site
 
 Run `pipenv run python3 makebib.py` to create `_bibliography/papers.bib` and the individual pages under `_pages/publications`.
 
