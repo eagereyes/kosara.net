@@ -365,6 +365,15 @@
       font-size: 18px;
       font-weight: bolder;
       margin-bottom: 0px;
+
+      a {
+        color: $text-color;
+
+        &:hover {
+          color: $theme-color;
+          text-decoration: none;
+        }
+      }
     }
 
     .author {

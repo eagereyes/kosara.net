@@ -1,7 +1,8 @@
 ---
 layout: page
-permalink: /cv/
+permalink: /cv.html
 title: cv
+published: false
 ---
 
 <div class="cv-pdf">

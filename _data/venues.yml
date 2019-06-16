@@ -1,38 +1,33 @@
 arXiv:
   url: https://arxiv.org
 
-CMU:
-  url: http://www.ml.cmu.edu/
+BELIV:
+  url: https://beliv-workshop.github.io
 
-EMIM:
-  url: http://www.e-smi.eu/index.php?id=emim-2015-tubingen
+BioVis:
+  url: http://biovis.net/2019/index.html
 
-ICML:
-  url: http://www.icml.cc/
+CG&A:
+  url: https://www.computer.org/csdl/magazine/cg
 
-NAACL:
-  url: https://naacl2019.org/
+CHI:
+  url: https://sigchi.org/conferences/conference-history/chi/
 
-NIPS:
-  url: http://www.nips.cc/
+EuroVis:
+  url: http://eurovis.org
 
-UAI:
-  url: http://www.auai.org/
+InfoVis:
+  url: https://ieeevis.org
 
-AAAI:
-  url: http://www.aaai.org/
+TVCG:
+  url: https://www.computer.org/csdl/journal/tg
 
-PAMI:
-  url: http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?reload=true&punumber=34
+VAST:
+  url: https://ieeevis.org
 
-BMVC:
-  url: www.bmva.org/bmvc
+VIS:
+  url: https://ieeevis.org
 
-SDM:
-  url: http://www.siam.org/meetings/sdm17/
-
-JNeurosci:
-  url: http://www.jneurosci.org/
-
-HBM:
-  url: https://www.humanbrainmapping.org
+VisSym:
+  url: http://eurovis.org
+  
