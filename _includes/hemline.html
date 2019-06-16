@@ -1,4 +1,15 @@
 
+<!-- Load jQuery -->
+<script src="//code.jquery.com/jquery-{{ site.jquery_version }}.min.js"></script>
+
+<!-- Load Common JS -->
+<script src="{{ '/assets/js/common.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+
+<!-- Code -->
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+<script src="{{ '/assets/js/highlight.pack.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
 <!-- Include custom icon fonts -->
 <link rel="stylesheet" href="{{ '/assets/css/font-awesome.min.css' | prepend: site.baseurl | prepend: site.url }}">
 <link rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | prepend: site.baseurl | prepend: site.url }}">
