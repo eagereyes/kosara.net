@@ -139,6 +139,7 @@ Skau:EuroVis:2015:
     volume: 34
     number: 3
     pages: 221–230
+    doi: 10.1111/cgf12634
     abstract: As data visualization becomes further intertwined with the field of graphic design and information graphics, small graphical alterations are made to many common chart formats. Despite the growing prevalence of these embellishments, their effects on communication of the charts’ data is unknown. From an overview of the design space, we have outlined some of the common embellishments that are made to bar charts. We have studied the effects of these chart embellishments on the communication of the charts’ data through a series of user studies on Amazon’s Mechanical Turk platform. The results of these studies lead to a better understanding of how each chart type is perceived, and help provide guiding principles for the graphic design of charts.
 Haroz:CHI:2015:
     type: inproceedings
@@ -186,6 +187,7 @@ Dasgupta:CGF:2013:
     volume: 32
     number: 8
     pages: 35–47
+    doi: 10.1111/v32i8pp035-047
     abstract: |
         In previous work, we proposed a technique for preserving the privacy of quasi-identifiers in sensitive data when visualized using parallel coordinates. This paper builds on that work by introducing a number of metrics that can be used to assess both the level of privacy and the amount of utility that can be gained from the resulting visualizations. We also generalize our approach beyond parallel coordinates to scatter plots and other visualization techniques.
         Privacy preservation generally entails a trade-off between privacy and utility: the more the data are protected, the less useful the visualization. Using a visually-oriented approach, we can provide a higher amount of utility than directly applying data anonymization techniques used in data mining. To demonstrate this, we use the visual uncertainty framework for systematically defining metrics based on cluster artifacts and information theoretic principles. In a case study, we demonstrate the effectiveness of our technique as compared to standard data-based clustering in the context of privacy-preserving visualization.
@@ -247,6 +249,7 @@ Dasgupta:EuroVis:2012:
     volume: 31
     number: 3
     pages: 1015–1024
+    doi: 10.1111/v31i3pp1015-1024
     abstract: Uncertainty is an intrinsic part of any visual representation in visualization, no matter how precise the input data. Existing research on uncertainty in visualization mainly focuses on depicting data-space uncertainty in a visual form. Uncertainty is thus often seen as a problem to deal with, in the data, and something to be avoided if possible. In this paper, we highlight the need for analyzing visual uncertainty in order to design more effective visual representations. We study various forms of uncertainty in the visual representation of parallel coordinates and propose a taxonomy for categorizing them. By building a taxonomy, we aim to identify different sources of uncertainty in the screen space and relate them to different effects of uncertainty upon the user. We examine the literature on parallel coordinates and apply our taxonomy to categorize various techniques for reducing uncertainty. In addition, we consider uncertainty from a different perspective by identifying cases where increasing certain forms of uncertainty may even be useful, with respect to task, data type and analysis scenario. This work suggests that uncertainty is a feature that can be both useful and problematic in visualization, and it is beneficial to augment an information visualization pipeline with a facility for visual uncertainty analysis.
 
 Dasgupta:VDA:2011:
@@ -385,6 +388,7 @@ Ziemkiewicz:EuroVis:2009:
     volume: 28
     number: 3
     pages: 911–918
+    doi: 10.1111/v28i3pp0911-0918
     abstract: Understanding information visualization is more than a matter of reading a series of data values; it is also a matter of incorporating a visual structure into one's own thinking about a problem. We have proposed visual metaphors as a framework for understanding high-level visual structure and its effect on visualization use. Although there is some evidence that visual metaphors can affect visualization use, the nature of this effect is still ambiguous. We propose that a user's preconceived metaphors for data and other individual differences play an important role in her ability to think in a variety of visual metaphors, and subsequently in her ability to use a visualization. We test this hypothesis by conducting a study in which a participant's preconceptions and thinking style were compared with the degree to which she is affected by conflicting metaphors in a visualization and its task questions. The results show that metaphor compatibility has a significant effect on accuracy, but that factors such as spatial ability and personality can lessen this effect. We also find a complex influence of self-reported metaphor preference on performance. These findings shed light on how people use visual metaphors to understand a visualization.
 
 Godwin:SPIE:2008:
@@ -561,6 +565,7 @@ Kosara:VisSym:2004:
     author: Robert Kosara and Fabian Bendix and Helwig Hauser
     venue: Joint Eurographics - IEEE TCVG Symposium on Visualization (VisSym)
     pages: 45–54
+    doi: 10.2312/VisSym.VisSym04.045-054
     abstract: |
         Histograms are a very useful tool for data analysis, because they show the distribution of values over a data dimension. Many data sets in engineering (like computational fluid dynamics, CFD), however, are time-dependent. While standard histograms can certainly show such data sets, they do not account for the special role time plays in physical processes and our perception of the world.
         We present TimeHistograms, which are an extension to standard histograms that take time into account. In several 2D and 3D views, the data is presented in different ways that allow the user to understand different aspects of the temporal development of a dimension. A number of interaction techniques are also provided to make best use of the display, and to allow the user to brush in the histograms.
@@ -607,6 +612,7 @@ Kosara:STAR:2003:
     author: Robert Kosara and Helwig Hauser and Donna L. Gresh
     venue: State-of-the-Art Proceedings of EUROGRAPHICS
     pages: 123–137
+    doi: 10.2312/egst20031092
     abstract: |
         Information Visualization (InfoVis) encompasses techniques of visualization that deal primarily with abstract data, that is, data for which the user has no preconceived mental model. This is in contrast to, for example, volume or flow data. For this reason, interaction is particularly important in InfoVis: for exploration, analysis, and presentation of data. Interaction allows the user to implicitly form mental models of the correlations and relationships in the data, through recognition of patterns, marking or focusing in on those patterns, forming mental hypotheses and testing them, and so on. Some interaction techniques are very specific to InfoVis (even though they can be and are applied to other areas as well), such as Focus+Context and Linking+Brushing.
         This paper surveys InfoVis techniques with an orientation toward interaction aspects, rather than data model or display dimension. It also tries to put the work into perspective by including aspects such as user studies for the evaluation of methods
@@ -662,6 +668,7 @@ Kosara:VisSym:2002:
     author: Robert Kosara and Silvia Miksch and Helwig Hauser and Johann Schrammel and Verena Giller and Manfred Tscheligi
     venue: Proceedings of the Joint Eurographics – IEEE TCVG Symposium on Visualization (VisSym)
     pages: 205–210
+    doi: 10.2312/VisSym.VisSym02.205-210
     abstract: |
         This paper presents the results of a thorough user study that was performed to assess some features and the general usefulness of Semantic Depth of Field (SDOF). Based on these results, concrete hints are given on how SDOF can be used for visualization. SDOF was found to be a very effective means for guiding the viewer’s attention and for giving him or her a quick overview of a data set. It can also very quickly be perceived, and therefore provides an efficient visual channel.
         Semantic Depth of Field is a focus+context (F+C) technique that uses blur to point the user to the most relevant objects. It was inspired by the depth of field (DOF) effect in photography, which serves a very similar purpose.
