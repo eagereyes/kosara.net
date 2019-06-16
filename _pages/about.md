@@ -8,6 +8,6 @@ description: Senior Research Scientist at <a href="https://research.tableau.com/
 news: false
 ---
 
-This website is currently mostly for my [list of publications](/publications/index.html).
+This website is currently mostly for my [list of publications](/publications.html).
 
 For more information, head over to [eagereyes.org](https://eagereyes.org).
