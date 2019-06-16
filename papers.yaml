@@ -3,6 +3,7 @@ Kosara:EuroVis:2019b:
     title: The Impact of Distribution and Chart Type on Part-to-Whole Comparisons
     author: Robert Kosara
     venue: Short Paper Proceedings of the Eurographics/IEEE VGTC Symposium on Visualization (EuroVis)
+    doi: 10.2312/evs20191162
     abstract: |
         Pie charts and treemaps are commonly used in business settings to show part-to-whole relationships. In a study, we compare pie charts, treemaps, stacked bars, and two circular charts when answering part-to-whole questions with multiple slices and different distributions of values. We find that the circular charts, including the unusual variations, perform better than the treemap, and that their performance depends on whether participants are asked to judge the largest slice or a smaller one. 
 Kosara:EuroVis:2019a:
@@ -10,14 +11,16 @@ Kosara:EuroVis:2019a:
     title: Circular Part-to-Whole Charts Using the Area Visual Cue
     author: Robert Kosara
     venue: Short Paper Proceedings of the Eurographics/IEEE VGTC Symposium on Visualization (EuroVis)
+    doi: 10.2312/evs20191163
     abstract: |
         Studies of chart types can reveal unexplored design spaces, like the circular diagrams used in recent studies on pie charts. In this paper, we explore several variations of part-to-whole charts that use area to represent a fraction within a circle. We find one chart that performs very similarly to the pie chart, even though it is visually more complex. Centered shapes turn out to lead to much worse accuracy than any other stimuli, even the same shape when not centered. These first results point to the need for more systematic explorations of the design spaces around existing charts. 
 
 Kosara:BELIV:2018:
     type: inproceedings
     title: "Skipping the Replication Crisis in Visualization: Threats to Study Validity and How to Address Them"
-    author: Robert Kosara
+    author: Robert Kosara and Steve Haroz
     venue: "Proceedings BEyond time and errors: novel evaLuation methods for Information Visualization (BELIV)"
+    doi: 10.1109/BELIV.2018.8634392
     abstract: |
         Replications are rare in visualization research, but if they were more common, it is not unreasonable to believe that they would show a similar rate of unreproducible results as in the psychological and social sciences. While a replication crisis in visualization research would be a helpful wake-up call, examining and correcting the underlying problems in many studies is ultimately more productive. 
         In this paper, we survey the state of replication in visualization research. We examine six threats to the validity of studies in visu- alization and suggest ways to address them. Finally, we describe possible models for publishing replications that satisfy the novelty criterion that can keep replications from being accepted. 
@@ -36,6 +39,7 @@ Kosara:EuroVis:2017:
     title: An Argument Structure for Data Stories
     author: Robert Kosara
     venue: Short Paper Proceedings of the Eurographics/IEEE VGTC Symposium on Visualization (EuroVis)
+    doi: 10.2312/eurovisshort20171129
     abstract: |
         Many data stories in journalism do not have a story arc, but rather present facts without much structure. This mirrors the popular inverted pyramid style of writing that presents the most important information up front, to be followed by evidence. We have found a subset of stories that follow a more structured approach, however. These stories begin with a claim or question, but do not immediately present that as the conclusion. Instead, they then present pieces of evidence that are only tied together, and back to the initial claim, at the end.
         In this paper, we formalize and discuss this structure, and present a few examples. We believe that this is a viable and practical model for data stories more generally, and certainly a stronger arc than most existing stories today.
@@ -44,6 +48,7 @@ Skau:EuroVis:2017:
     title: Readability and Precision in Pictorial Bar Charts
     author: Drew Skau and Robert Kosara
     venue: Short Paper Proceedings of the Eurographics/IEEE VGTC Symposium on Visualization (EuroVis)
+    doi: 10.2312/eurovisshort20171139
     abstract: |
         Bar charts embellished with unique artistic styles, or made to look like real objects, are common in information graphics. Embellishments are typically considered detrimental to readability and accuracy, since they add clutter and noise. Previous work has found that some of the shapes used, like rounded tops, triangles, etc., decreased accuracy when judging relative and absolute sizes, while T-shaped bars even showed a slight increase relative to the basic bar chart.
         In this paper, we report on a study that adds pictorial elements to bar charts of four different shapes tested previously, thus also including the elements of color and texture.
@@ -55,6 +60,7 @@ Hullman:EuroVis:2017:
     venue: Computer Graphics Forum (Proceedings EuroVis)
     volume: 36
     number: 3
+    doi: 10.1111/cgf13194
     abstract: "Little is known about how people structure sets of visualizations to support sequential viewing. We contribute findings from several studies examining visualization sequencing and reception. In our first study, people made decisions between various possible structures as they ordered a set of related visualizations (consisting of either bar charts or thematic maps) into what they considered the clearest sequence for showing the data. We find that most people structure visualization sequences hierarchically: they create high level groupings based on shared data properties like time period, measure, level of aggregation, and spatial region, then order the views within these groupings. We also observe a tendency for certain types of similarities between views, like a common spatial region or aggregation level, to be seen as more appropriate categories for organizing views in a sequence than others, like a common time period or measure. In a second study, we find that viewers’ perceptions of the quality and intention of different sequences are largely consistent with the perceptions of the users who created them. The understanding of sequence preferences and perceptions that emerges from our studies has implications for the development of visualization authoring tools and sequence recommendations for guided analysis."
 
 Kosara:BELIV:2016:
@@ -111,6 +117,7 @@ Kosara:CGA:2016:
     volume: 36
     number: 1
     pages: 80–85
+    doi: 10.1109/MCG.2016.2
     abstract: "Data visualization research focuses on data exploration and analysis, yet the vast majority of visualizations people see were created for a different purpose: presentation. Whether we are talking about charts showing data to help make a presenter’s point, data visuals created to accompany a news story, or the ubiquitous infographics, many more people consume charts than make them.The techniques used to present data are mostly those used in analysis: bar charts, line charts, and so on. Although we understand them well, that understanding is based on their role in analysis. What if the presentation goals were different? How would that impact how the techniques we used? And are there techniques uniquely suited to data presentation but not necessarily as ideal for exploration and analysis?"
 Haroz:TVCG:2016:
     type: article
@@ -157,7 +164,8 @@ Kosara:CGA:2015:
     venue: Computer Graphics and Applications (CG&A)
     volume: 35
     number: 2
-    pages: 12–15
+    pages: 12–14
+    doi: 10.1109/MCG.2015.43
     abstract: Tapestry is an unusual conference, at least compared with academic gatherings. There are no proceedings, and the presentations are not chosen through peer review. What it is, however, is a place to meet and exchange ideas for people with a common interest.
 
 Morton:SIGMOD:2014:
@@ -195,6 +203,7 @@ Kosara:Computer:2013:
     volume: 46
     number: 5
     pages: 44–50
+    doi: 10.1109/MC.2013.36
     abstract: Presentation and communication of data have so far played a minor role in visualization research, with most work focused on exploration and analysis. We propose that presentation, in particular using elements from storytelling, is the next logical step and should be a research focus of at least equal importance as each of the other two. Stories package information into a structure that is easily remembered, which is important in many collaborative scenarios when an analyst is not the same person as the one who makes decisions, or simply needs to share information with peers. Data visualization lends itself well to being a communication medium for storytelling, in particular when the story also contains a lot of data. We review the literature on storytelling and presentation and outline the research area.
     materials-text: Also in IEEE Computing Now, January 2014
     materials-url: http://www.computer.org/portal/web/computingnow/archive/january2014
@@ -219,6 +228,8 @@ Dasgupta:LDAV:2012:
     title: Meta Parallel Coordinates for Visualizing Features in Large, High-Dimensional, Time-varying Data
     author: Aritra Dasgupta and Robert Kosara and Luke Gosink
     venue: Symposium on Large-Scale Data Analysis and Visualization (LDAV)
+    pages: 85–89
+    doi: 10.1109/LDAV.2012.6378980
     abstract: |
         Managing computational complexity and designing effective visual representations are two important challenges for the visualization of large, complex, high-dimensional datasets. Parallel coordinates are an effective technique for visualizing high-dimensional data, but do not scale well to very large datasets. The addition of the tempo- ral dimension leads to more uncertainty due to clutter on screen. Consequently, this poses a significant challenge for visually find- ing trends and patterns that maximize insight about the underlying time-varying properties of the data.
         To address these problems, we present meta parallel coordinates, a parallel coordinates display that is guided by perceptually motivated visual metrics. These metrics describe the visual structures typically found in parallel coordinates and thus aid the user’s analysis by providing meaningful views of the data. Since they are computed in screen space, our metrics are computationally more efficient than data-based metrics. Our choice of metrics is driven by the different analytical tasks that a user typically wants to perform with time-varying multivariate data. In particular, we have worked with domain scientists who performed simulations of bioremediation experiments, and use their data and results to demonstrate the usefulness of our approach.
@@ -264,6 +275,7 @@ Dasgupta:InfoVis:2011:
     volume: 17
     number: 12
     pages: 2241–2248
+    doi: 10.1109/TVCG.2011.163
     abstract: Current information visualization techniques assume unrestricted access to data. However, privacy protection is a key issue for a lot of real-world data analyses. Corporate data, medical records, etc. are rich in analytical value but cannot be shared without first going through a transformation step where explicit identifiers are removed and the data is sanitized. Researchers in the field of data mining have proposed different techniques over the years for privacy-preserving data publishing and subsequent mining techniques on such sanitized data. A well-known drawback in these methods is that for even a small guarantee of privacy, the utility of the datasets is greatly reduced. In this paper, we propose an adaptive technique for privacy preservation in parallel coordinates. Based on knowledge about the sensitivity of the data, we compute a clustered representation on the fly, which allows the user to explore the data without breaching privacy. Through the use of screen-space privacy metrics, the technique adapts to the user’s screen parameters and interaction. We demonstrate our method in a case study and discuss potential attack scenarios.
     acceptance-rate: 26
 
@@ -275,6 +287,7 @@ Ziemkiewicz:InfoVis:2010:
     volume: 16
     number: 6
     pages: 1009–1016
+    doi: 10.1109/TVCG.2010.174
     acceptance-rate: 26
     abstract: Many of the pressing questions in information visualization deal with how exactly a user reads a collection of visual marks as information about relationships between entities. Previous research has suggested that people see parts of a visualization as objects, and may metaphorically interpret apparent physical relationships between these objects as suggestive of data relationships. We explored this hypothesis in detail in a series of user experiments. Inspired by the concept of implied dynamics in psychology, we first studied whether perceived gravity acting on a mark in a scatterplot can lead to errors in a participant’s recall of the mark’s position. The results of this study suggested that such position errors exist, but may be more strongly influenced by attraction between marks. We hypothesized that such apparent attraction may be influenced by elements used to suggest relationship between objects, such as connecting lines, grouping elements, and visual similarity. We further studied what visual elements are most likely to cause this attraction effect, and whether the elements that best predicted attraction errors were also those which suggested conceptual relationships most strongly. Our findings show a correlation between attraction errors and intuitions about relatedness, pointing towards a possible mechanism by which the perception of visual marks becomes an interpretation of data relationships.
 Dasgupta:InfoVis:2010:
@@ -285,6 +298,7 @@ Dasgupta:InfoVis:2010:
     volume: 16
     number: 6
     pages: 1017–1026
+    doi: 10.1109/TVCG.2010.184
     acceptance-rate: 26
     abstract: |
         Interactive visualization requires the translation of data into a screen space of limited resolution. While currently ignored by most visualization models, this translation entails a loss of information and the introduction of a number of artifacts that can be useful, (e.g., aggregation, structures) or distracting (e.g., over-plotting, clutter) for the analysis. This phenomenon is observed in parallel coordinates, where overlapping lines between adjacent axes form distinct patterns, representing the relation between variables they connect. However, even for a small number of dimensions, the challenge is to effectively convey the relationships for all combinations of dimensions. The size of the dataset and a large number of dimensions only add to the complexity of this problem.
@@ -329,6 +343,7 @@ Ziemkiewicz:CGA:2010:
     volume: 30
     number: 5
     pages: 7–11
+    doi: 10.1109/MCG.2010.83
     abstract: Visualization is at a point in its development where its practitioners frequently find themselves grappling with big questions about its nature and purpose. These include fundamental questions about how visualization works—that is, how do people interpret visual forms as information? Classical visualization theory sees this as a process of encoding data variables as visual variables, which the viewer then decodes. Although this body of theory is useful, it doesn’t account for visual structure’s role in shaping information. Experiments on how design affects users’ interpretations of simple visualizations suggest that structural elements such as borders, fills, and arrangement (in addition to the traditional marks) carry significant, predictable semantic information. Drawing on these findings as well as design traditions, the authors argue that visual structure’s apparent dynamics play a major role in a user's understanding of data and must be considered in the design and evaluation of visualizations.
 Kosara:BeautifulVis:2010:
     type: inbook
@@ -386,6 +401,7 @@ Ziemkiewicz:InfoVis:2008:
     volume: 14
     number: 6
     pages: 1269–1276
+    doi: 10.1109/TVCG.2008.171
     acceptance-rate: 26
     note: Best Paper Honorable Mention
     abstract: The nature of an information visualization can be considered to lie in the visual metaphors it uses to structure information. The process of understanding a visualization therefore involves an interaction between these external visual metaphors and the user’s internal knowledge representations. To investigate this claim, we conducted an experiment to test the effects of visual and verbal metaphor on the understanding of tree visualizations. Participants answered simple data comprehension questions while viewing either a treemap or a node-link diagram. Questions were worded to reflect a verbal metaphor that was either compatible or incompatible with the visualization a participant was using. The results (based on correctness and response time) suggest that the visual metaphor indeed affects how a user derives information from a visualization. Additionally, we found that the degree to which a user is affected by the metaphor is strongly correlated with the user’s ability to answer task questions correctly. These findings are a first step towards illuminating how visual metaphors shape user understanding and have significant implications for the evaluation, application, and theory of visualization.
@@ -414,6 +430,7 @@ Kosara:CGA:2008:
     volume: 28
     number: 3
     pages: 13–15
+    doi: 10.1109/MCG.2008.63
     abstract: |
         Criticism is a vital part of the practice of design, architecture, and art, and as such is taught and practiced around the world. It is extremely difficult – if not impossible – to establish rules for making good art or designing a new object. Instead of generative rules, there are well-established guidelines, styles, and best practices that often only apply to a finished object, or at least a reasonable sketch. Criticizing a work means applying these standards to identify weaknesses and suggest improvements. Some say that it is much less important in art to know how to do something specific than it is to know how to "see."
         Visualization is in many respects similar to design and art: we know a good visualization when we see it (or run a controlled user study on it), but it is impossible to define constructive rules how to design an effective visualization. Critiquing can be a useful tool for teaching, developing better techniques, and more theoretical thinking about visualization.
@@ -432,6 +449,7 @@ Chang:InfoVis:2007:
     volume: 13
     number: 6
     pages: 1169–1175
+    doi: 10.1109/TVCG.2007.70574
     acceptance-rate: 23
     abstract: Numerous systems have been developed to display large collections of data for urban contexts; however, most have focused on layering of single dimensions of data and manual calculations to understand relationships within the urban environment. Furthermore, these systems often limit the user's perspectives on the data, thereby diminishing the user's spatial understanding of the viewing region. In this paper, we introduce a highly interactive urban visualization tool that provides intuitive understanding of the urban data. Our system utilizes an aggregation method that combines buildings and city blocks into legible clusters, thus providing continuous levels of abstraction while preserving the user's mental model of the city. In conjunction with a 3D view of the urban model, a separate but integrated information visualization view displays multiple disparate dimensions of the urban data, allowing the user to understand the urban environment both spatially and cognitively in one glance. For our evaluation, expert users from various backgrounds viewed a real city model with census data and confirmed that our system allowed them to gain more intuitive and deeper understanding of the urban model from different perspectives and levels of abstraction than existing commercial urban visualization systems.
 Chang:VAST:2007:
@@ -440,6 +458,7 @@ Chang:VAST:2007:
     author: Remco Chang and Mohammad Ghoniem and Robert Kosara and William Ribarsky and Jing Yang and Evan Suma and Caroline Ziemkiewicz and Daniel Kern and Agus Sudjianto
     venue: IEEE Symposium on Visual Analytics Science and Technology (VAST)
     pages: 155–162
+    doi: 10.1109/VAST.2007.4389009
     abstract: Large financial institutions such as Bank of America handle hundreds of thousands of wire transactions per day. Although most transactions are legitimate, these institutions have legal and financial obligations in discovering those that are suspicious. With the methods of fraudulent activities ever changing, searching on predefined patterns is often insufficient in detecting previously undiscovered methods. In this paper, we present a set of coordinated visualizations based on identifying specific keywords within the wire transactions. The different views used in our system depict relationships among keywords and accounts over time. Furthermore, we introduce a search-by-example technique which extracts accounts that show similar transaction patterns. In collaboration with the Anti-Money Laundering division at Bank of America, we demonstrate that using our tool, investigators are able to detect accounts and transactions that exhibit suspicious behaviors.
 Kelly:SPT:2007:
     type: inproceedings
@@ -453,6 +472,7 @@ Kosara:IV:2007:
     author: Robert Kosara
     venue: Proceedings of the 11th International Conference on Information Visualisation (IV)
     pages: 631–636
+    doi: 10.1109/IV.2007.130
     abstract: |
         Classifications of visualization are often based on technical criteria, and leave out artistic ways of visualizing information. Understanding the differences between information visualization and other forms of visual communication provides important insights into the way the field works, though, and also shows the path to new approaches.
         We propose a classification of several types of information visualization based on aesthetic criteria. The notions of artistic and pragmatic visualization are introduced, and their properties discussed. Finally, the idea of visualization criticism is proposed, and its rules are laid out. Visualization criticism bridges the gap between design, art, and technical/pragmatic information visualization. It guides the view away from implementation details and single mouse clicks to the meaning of a visualization.
@@ -492,6 +512,7 @@ Kosara:TVCG:2006:
     volume: 12
     number: 4
     pages: 558–568
+    doi: 10.1109/TVCG.2006.76
     abstract: |
         Categorical data dimensions appear in many real-world data sets, but few visualization methods exist that properly deal with them.
         Parallel Sets are a new method for the visualization and interactive exploration of categorical data that shows data frequencies instead of the individual data points. The method is based on the axis layout of parallel coordinates, with boxes representing the categories and parallelograms between the axes showing the relations between categories.
@@ -512,6 +533,7 @@ Bendix:InfoVis:2005:
     author: Fabian Bendix and Robert Kosara and Helwig Hauser
     venue: IEEE Symposium on Information Visualization (InfoVis)
     pages: 133–140
+    doi: 10.1109/INFOVIS.2005.27
     abstract: The discrete nature of categorical data makes it a particular challenge for visualization. Methods that work very well for continuous data are often hardly usable with categorical dimensions. Only few methods deal properly with such data, mostly because of the discrete nature of categorical data, which does not translate well into the continuous domains of space and color.
         Parallel Sets is a new visualization method that adopts the layout of parallel coordinates, but substitutes the individual data points by a frequency-based representation. This abstracted view, combined with a set of carefully designed interactions, supports visual data analysis of large and complex data sets. The technique allows efficient work with meta data, which is particularly important when dealing with categorical datasets. By creating new dimensions from existing ones, for example, the user can filter the data according to his or her current needs.
         We also present the results from an interactive analysis of CRM data using Parallel Sets. We demonstrate how the flexible lay- out eases the process of knowledge crystallization, especially when combined with a sophisticated interaction scheme.
@@ -521,6 +543,8 @@ Piringer:CMV:2004:
     title: Interactive Focus+Context Visualization with Linked 2D/3D Scatterplots
     author: Harald Piringer and Robert Kosara and Helwig Hauser
     venue: 2nd International Conference on Coordinated and Multiple Views in Exploratory Visualization (CMV)
+    pages: 49–60
+    doi: 10.1109/CMV.2004.1319526
     abstract: |
         Scatterplots in 2D and 3D are very useful tools, but also suffer from a number of problems. Overplotting hides the true number of points that are displayed, and showing point clouds in 3D is problematic both in terms of perception and interaction.
         We propose a combination of 2D and 3D scatterplots, together with some extensions to overcome these problems. By linking 2D and 3D views, it is possible to interact in 2D and get feedback in 3D. That feedback is also enhanced by depth cues (color and point size) such that the user gets a better depth impression. Histograms in 2D and 3D show additional information about point densities and additional context can be displayed. An example application demonstrates the usefulness of the technique.
@@ -575,6 +599,7 @@ Kosara:CGA:2003:
     volume: 23
     number: 4
     pages: 20–25
+    doi: 10.1109/MCG.2003.1210860
     abstract: In crafting today’s visualizations, we often design and evaluate methods by presenting results informally to potential users. No matter how efficient a visualization technique may be, or how well motivated from theory, if it doesn’t convey information effectively, it’s of little use.
 Kosara:STAR:2003:
     type: inproceedings
@@ -617,6 +642,7 @@ Kosara:CGA:2002:
     volume: 22
     number: 1
     pages: 22–29
+    doi: 10.1109/38.974515
     abstract: |
         Pointing out relevant information to a user is one application of focus+context techniques in information visualization. We present a method for doing this which uses selective blur to direct the user’s attention. This method is based on the depth of field (DOF) effect used in photography and cinematography, and is therefore both familiar to users and perceptually effective. Because this method blurs objects based on their relevance rather than their distance, we call it Semantic Depth of Field (SDOF).
         We also present four example applications that use SDOF to show its usefulness in practice, and also provide details of a fast implementation that makes it possible to use blur in interactive applications. A short report on the results of a user study we performed is also given.
@@ -654,6 +680,7 @@ Kosara:InfoVis:2001:
     author: Robert Kosara and Silvia Miksch and Helwig Hauser
     venue: Proceedings Information Visualization (InfoVis)
     pages: 97–104
+    doi: 10.1109/INFVIS.2001.963286
     abstract: We present a new technique called Semantic Depth of Field (SDOF) as an alternative approach to focus-and-context displays of information. We utilize a well-known method from photography and cinematography (depth-of-field effect) for information visualization, which is to blur different parts of the depicted scene in dependence of their relevance. Independent of their spatial locations, objects of interest are depicted sharply in SDOF, whereas the context of the visualization is blurred. In this paper, we present a flexible model of SDOF which can be easily adopted to various types of applications. We discuss pros and cons of the new technique, give examples of application, and describe a fast prototype implementation of SDOF.
 Kosara:MedInfo:2001:
     type: inproceedings
@@ -699,6 +726,7 @@ Kosara:TIME:2000:
     author: Robert Kosara and Silvia Miksch
     venue: Proceedings of the Seventh International Workshop on Temporal Representation and Reasoning (TIME)
     pages: 153–181
+    doi: 10.1109/TIME.2000.856599
     abstract: |
         Medical therapy planning shares a number of properties of project management. It is, however, different in a few very important aspects — most notably, the more complex notion of time it requires.
         Asbru is a language that can represent medical therapy plans in terms of time-oriented, skeletal plans. But due to its formal nature, it cannot be used directly by physicians. Therefore, we developed a visualization and user interface to deal with plans defined in Asbru, which can deal with most of its complexity.
