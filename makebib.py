@@ -56,6 +56,12 @@ with open('_bibliography/papers.bib', 'w') as o:
         if 'pages' in pub:
             print('\tpages = {%(pages)s},' % pub, file=o)
 
+        if 'data' in pub:
+            print('\tdata = {%(data)s},' % pub, file=o)
+
+        if 'website' in pub:
+            print('\twebsite = {%(website)s},' % pub, file=o)
+
         filename = key.replace(':', '-')
         if not 'pdf' in pub: # means there's a 'pdf: no' key
             print('\tpdf = {https://kosara.net/papers/%s/%s.pdf},' % (year, filename), file = o)

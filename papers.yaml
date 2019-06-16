@@ -13,6 +13,14 @@ Kosara:EuroVis:2019a:
     abstract: |
         Studies of chart types can reveal unexplored design spaces, like the circular diagrams used in recent studies on pie charts. In this paper, we explore several variations of part-to-whole charts that use area to represent a fraction within a circle. We find one chart that performs very similarly to the pie chart, even though it is visually more complex. Centered shapes turn out to lead to much worse accuracy than any other stimuli, even the same shape when not centered. These first results point to the need for more systematic explorations of the design spaces around existing charts. 
 
+Kosara:BELIV:2018:
+    type: inproceedings
+    title: "Skipping the Replication Crisis in Visualization: Threats to Study Validity and How to Address Them"
+    author: Robert Kosara
+    venue: "Proceedings BEyond time and errors: novel evaLuation methods for Information Visualization (BELIV)"
+    abstract: |
+        Replications are rare in visualization research, but if they were more common, it is not unreasonable to believe that they would show a similar rate of unreproducible results as in the psychological and social sciences. While a replication crisis in visualization research would be a helpful wake-up call, examining and correcting the underlying problems in many studies is ultimately more productive. 
+        In this paper, we survey the state of replication in visualization research. We examine six threats to the validity of studies in visu- alization and suggest ways to address them. Finally, we describe possible models for publishing replications that satisfy the novelty criterion that can keep replications from being accepted. 
 Drucker:DDS:2018:
     type: inbook
     title: Communicating Data to an Audience
@@ -22,14 +30,6 @@ Drucker:DDS:2018:
     editor: Henry Riche, Hurter, Diakopoulos, Carpendale
     abstract: Communicating data in an effective and efficient story requires the content author to recognize the needs, goals, and knowledge of the intended audience. Do we, the authors, need to explain how a particular chart works? It depends on the audience. Does the data need to be traced back to its source? Depends on the audience. Can we skip obvious patterns and correlations and dive right into the deeper points? Depends on the audience. Do we need to explain what the findings in the data mean in terms of what the data represents? Depends on the audience. There are many more questions for which this is true.
     pdf: no
-Kosara:BELIV:2018:
-    type: inproceedings
-    title: "Skipping the Replication Crisis in Visualization: Threats to Study Validity and How to Address Them"
-    author: Robert Kosara
-    venue: "Proceedings BEyond time and errors: novel evaLuation methods for Information Visualization (BELIV)"
-    abstract: |
-        Replications are rare in visualization research, but if they were more common, it is not unreasonable to believe that they would show a similar rate of unreproducible results as in the psychological and social sciences. While a replication crisis in visualization research would be a helpful wake-up call, examining and correcting the underlying problems in many studies is ultimately more productive. 
-        In this paper, we survey the state of replication in visualization research. We examine six threats to the validity of studies in visu- alization and suggest ways to address them. Finally, we describe possible models for publishing replications that satisfy the novelty criterion that can keep replications from being accepted. 
 
 Kosara:EuroVis:2017:
     type: inproceedings
@@ -93,6 +93,7 @@ Skau:EuroVis:2016:
     number: 3
     pages: 121–130
     doi: 10.1111/cgf.12888
+    data: https://github.com/dwskau/arcs-angles-area
     abstract: "Pie and donut charts have been a hotly debated topic in the visualization community for some time now. Even though pie charts have been around for over 200 years, our understanding of the perceptual factors used to read data in them is still limited. Data is encoded in pie and donut charts in three ways: arc length, center angle, and segment area. For our first study, we designed variations of pie charts to test the importance of individual encodings for reading accuracy. In our second study, we varied the inner radius of a donut chart from a filled pie to a thin outline to test the impact of removing the central angle. Both studies point to angle being the least important visual cue for both charts, and the donut chart being as accurate as the traditional pie chart."
 Burlinson:SIGCSE:2016:
     title: "BRIDGES: A System to Enable Creation of Engaging Data Structures Assignments with Real-World Data and Visualizations"
@@ -121,8 +122,7 @@ Haroz:TVCG:2016:
     pages: 2174–2186
     doi: 10.1109/TVCG.2015.2502587
     abstract: The connected scatterplot visualizes two related time series in a scatterplot and connects the points with a line in temporal sequence. News media are increasingly using this technique to present data under the intuition that it is understandable and engaging. To explore these intuitions, we (1) describe how paired time series relationships appear in a connected scatterplot, (2) qualitatively evaluate how well people understand trends depicted in this format, (3) quantitatively measure the types and frequency of misinterpretations, and (4) empirically evaluate whether viewers will preferentially view graphs in this format over the more traditional format. The results suggest that low-complexity connected scatterplots can be understood with little explanation, and that viewers are biased towards inspecting connected scatterplots over the more traditional format. We also describe misinterpretations of connected scatterplots and propose further research into mitigating these mistakes for viewers unfamiliar with the technique.
-    materials-url: http://steveharoz.com/research/connected_scatterplot/
-    materials-text: Study materials and code are available here
+    website: http://steveharoz.com/research/connected_scatterplot/
 
 Skau:EuroVis:2015:
     type: article
@@ -139,8 +139,7 @@ Haroz:CHI:2015:
     author: Steve Haroz and Robert Kosara and Steven L. Franconeri
     venue: Proceedings CHI
     pages: 1191–1200
-    materials-text: Study materials and code are available here
-    materials-url: http://steveharoz.com/research/isotype/
+    website: http://steveharoz.com/research/isotype/
     abstract: Although the infographic and design communities have used simple pictographic representations for decades, it is still unclear whether they can make visualizations more effective. Using simple charts, we tested how pictographic representations impact (1) memory for information just viewed, as well as under the load of additional information, (2) speed of finding information, and (3) engagement and preference in seeking out these visualizations. We find that superfluous images can distract. But we find no user costs – and some intriguing benefits – when pictographs are used to represent the data.
 Dasgupta:EuroVis:2015:
     type: article
