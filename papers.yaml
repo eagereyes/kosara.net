@@ -87,8 +87,7 @@ Kosara:EuroVis:2016:
     venue: Short Paper Proceedings of the Eurographics/IEEE VGTC Symposium on Visualization (EuroVis)
     pages: 91–95
     doi: 10.2312/eurovisshort.20161167
-    materials-url: https://github.com/dwskau/pie-variations
-    materials-text: Study materials and data are available on github
+    data: https://github.com/dwskau/pie-variations
     abstract: |
         Pie charts and their variants are prevalent in business settings and many other uses, even if they are not popular with the academic community. In a recent study, we found that contrary to general belief, there is no clear evidence that these charts are read based on the central angle. Instead, area and arc length appear to be at least equally important.
         In this paper, we build on that study to test several pie chart variations that are popular in information graphics: exploded pie chart, pie with larger slice, elliptical pie, and square pie (in addition to a regular pie chart used as the baseline). We find that even variants that do not distort central angle cause greater error than regular pie charts. Charts that distort the shape show the highest error. Many of our predictions based on the previous study’s results are borne out by this study’s findings.
@@ -210,8 +209,7 @@ Kosara:Computer:2013:
     pages: 44–50
     doi: 10.1109/MC.2013.36
     abstract: Presentation and communication of data have so far played a minor role in visualization research, with most work focused on exploration and analysis. We propose that presentation, in particular using elements from storytelling, is the next logical step and should be a research focus of at least equal importance as each of the other two. Stories package information into a structure that is easily remembered, which is important in many collaborative scenarios when an analyst is not the same person as the one who makes decisions, or simply needs to share information with peers. Data visualization lends itself well to being a communication medium for storytelling, in particular when the story also contains a lot of data. We review the literature on storytelling and presentation and outline the research area.
-    materials-text: Also in IEEE Computing Now, January 2014
-    materials-url: http://www.computer.org/portal/web/computingnow/archive/january2014
+    website: http://www.computer.org/portal/web/computingnow/archive/january2014
 Kosara:JCGS:2013:
     type: article
     title: "InfoVis Is So Much More: A Comment on Gelman and Unwin and an Invitation to Consider the Opportunities"
