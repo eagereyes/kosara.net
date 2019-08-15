@@ -7,4 +7,4 @@ _site
 Gemfile.lock
 .DS_store
 _pages/publications/*
-_bibliography/
+_bibliography/*.bib

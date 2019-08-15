@@ -4,6 +4,7 @@ Kosara:VISShort:2019:
     author: Robert Kosara
     venue: IEEE VIS Short Paper Proceedings
 #    doi: 10.2312/evs20191162
+    data: https://osf.io/7y842/
     abstract: |
         The long-standing assumption of angle as the primary visual cue used to read pie charts has recently been called into question. We conducted a controlled, preregistered study using parallel-projected 3D pie charts. Angle, area, and arc length differ dramatically when projected and change over a large range of values. Modeling these changes and comparing them to study participants’ estimates allows us to rank the different visual cues by model fit. Area emerges as the most likely cue used to read pie charts. 
 Kosara:EuroVis:2019b:
