@@ -31,6 +31,11 @@ VAST:
 VIS:
   url: https://ieeevis.org
 
+VISShort:
+  url: https://ieeevis.org
+
 VisSym:
   url: http://eurovis.org
-  
+
+VizSec:
+  url: https://vizsec.org
