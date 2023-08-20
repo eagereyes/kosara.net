@@ -13,12 +13,13 @@ for paper in papers:
 
     with open('docs/publications/%s.html' % key, 'w') as out:
         
-        out.write("""<head>
-  <meta http-equiv="Refresh" content="0; URL=https://%s" />
-</head>""" % (REDIRECT+key))
-        out.write("""<body>
+        out.write("""<html>
+    <head>
+        <meta http-equiv="Refresh" content="0; URL=https://%s" />
+    </head>\n""" % (REDIRECT+key))
+        out.write("""   <body>
         <h1>This page has moved!</h1>
 
-        Redirecting to <a href="https://%s">%s</a>…
-    </body>""" % (REDIRECT+key, REDIRECT+key))
+        Redirecting to <a href="https://%s">%s</a>...
+    </body>\n</html>\n""" % (REDIRECT+key, REDIRECT+key))
 
